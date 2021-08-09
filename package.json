@@ -1,0 +1,28 @@
+{
+  "name": "react-folio-node-backend",
+  "version": "1.0.0",
+  "description": "Backend for my react app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-ristic/react-folio-node-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mark-ristic/react-folio-node-backend/issues"
+  },
+  "homepage": "https://github.com/mark-ristic/react-folio-node-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
